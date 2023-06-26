@@ -1,0 +1,29 @@
+{
+  "name": "walletconnect2-0dappdemo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@walletconnect/sign-client": "^2.8.2",
+    "@walletconnect/universal-provider": "2.8.1",
+    "@walletconnect/types": "2.8.1",
+    "@web3modal/standalone": "^2.3.7",
+    "@walletconnect/encoding": "^1.0.1",
+    "caip-api": "^2.0.0-beta.1",
+    "web3": "^1.7.0",
+    "ethers": "^5.3.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
